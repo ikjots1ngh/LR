@@ -302,24 +302,3 @@ plt.xlabel('False Positive Rate or [1 - True Negative Rate]')
 plt.ylabel('True Positive Rate')
 plt.legend()
 plt.show()
-
-1. What is the difference between precision and recall?
-2. What is cross-validation, and why is it important in binary classification?
-# In[ ]:
-
-
-1.Precision vs. Recall Precision: The proportion of true positive results among all positive results predicted by the model.
-Precision
-True Positives True Positives + False Positives Precision= True Positives+False Positives True Positives​
-
-Recall: The proportion of true positive results among all actual positive cases in the dataset.
-
-Recall
-True Positives True Positives + False Negatives Recall= True Positives+False Negatives True Positives​
-
-2.Cross-Validation and Its Importance Cross-Validation: A technique to assess how well a model generalizes to an independent dataset. It involves dividing the data into multiple folds, training the model on some folds, and validating it on the remaining folds.
-Importance in Binary Classification:
-
-Prevents Overfitting: Ensures the model performs well on unseen data. Model Evaluation: Provides a more reliable estimate of model performance compared to a single train-test split. Hyperparameter Tuning: Helps in selecting the best model parameters by evaluating performance across different folds.
-
-
